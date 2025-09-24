@@ -2,20 +2,21 @@ import { Component } from "react";
 import "./App.css";
 // import Hello from "./components/Hello";
 
-function Hello() {
-  return <div>Hello World!</div>;
-}
+// function Welcome() {
+//   return <h1>Hello World!</h1>;
+// }
 
-class Hello2 extends Component {
+class Welcome extends Component {
   render() {
-    return <div>Hello World2</div>;
+    return <h1>Hello World!</h1>;
   }
 }
+
 function App() {
   return (
     <div>
-      <Hello />
-      <Hello2 />
+      <Welcome />
+      <Welcome />
     </div>
   );
 }
